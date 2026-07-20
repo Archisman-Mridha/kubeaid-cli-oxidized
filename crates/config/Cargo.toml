@@ -1,0 +1,17 @@
+[package]
+name = "config"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+gix-url = "0.36.1"
+md5 = "0.8.1"
+o2o = "0.5.5"
+prompt = { path = "../prompt" }
+serde = { version = "1.0.228", features = ["serde_derive"] }
+serde_yaml = "0.9.34"
+ssh-key = "0.6.7"
+ureq = "2.10"
+
+[dev-dependencies]
+prompt-ratatui = { path = "../prompt-ratatui" }

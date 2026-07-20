@@ -1,0 +1,7 @@
+[package]
+name = "prompt"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+prompt-derive = { path = "../prompt-derive" }

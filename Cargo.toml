@@ -1,0 +1,8 @@
+[workspace]
+resolver = "3"
+members = [
+  "crates/config",
+  "crates/prompt",
+  "crates/prompt-derive",
+  "crates/prompt-ratatui"
+]
